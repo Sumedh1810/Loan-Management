@@ -27,8 +27,8 @@ public class OtpGenerationServlet extends HttpServlet {
         String otp = generateOTP();
         
         // Replace these with your actual email credentials
-        String senderEmail = "sumedh020@gmail.com";
-        String senderPassword = "pfexocvzekvgodir";
+        String senderEmail = "email";
+        String senderPassword = "set your password to enable otp generation";
 
         sendOTPEmail(recipientEmail, senderEmail, senderPassword, otp);
 
